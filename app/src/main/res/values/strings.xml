@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CustomView</string>
+
+    <string name="AddView_Name">Name</string>
+    <string name="AddView_JSON">JSON</string>
+    <string name="AddView_Button">Add View</string>
+
+    <string name="ComboBox">Combo Box</string>
+    <string name="ComboBoxButton">Select</string>
+
+    <string name="NewScreenButton">Go To: </string>
+    <string name="NewScreenButtonName">Select</string>
+    <string name="NewScreenNoHeader">No Header Found</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

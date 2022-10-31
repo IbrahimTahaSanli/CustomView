@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:id="@+id/ComboBoxButtonSelf"
+    >
+
+    <TextView
+        android:id="@+id/ComboBoxHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ComboBox"
+        android:textColor="@color/ComboBoxBackground"
+        android:textSize="10pt"
+        />
+
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/ComboBoxButtonSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ComboBoxButton"
+        android:textSize="10pt"
+        />
+</LinearLayout>

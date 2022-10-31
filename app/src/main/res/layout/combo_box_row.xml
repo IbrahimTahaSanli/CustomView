@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ComboBoxRowSelf"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/combo_box_row_background">
+
+        <TextView
+            android:id="@+id/ComboBoxRowText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/AddView_Name" />
+    </LinearLayout>
+
+</LinearLayout>
